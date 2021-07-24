@@ -5,11 +5,20 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>PKM Tools</title>
+        <link rel="stylesheet" href="styles/base-style.css">
         <link rel="stylesheet" href="styles/form.css">
     </head>
     <body>
+        <div class="div-selector">
+            <h3>Select a pokemon</h3>
+            <select id="pkmSelector">
+                <option value="-1">Select One</option>
+                <option value="1">Bulbasaur</option>
+                <option value="2">meowth</option>
+            </select>
+        </div>
         <div class="div-main">
-            <div class="normals">
+            <div class="div-normal">
                 <p>Normal</p>
                 <div class="div-img normal">
                     <img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/meowth.png" alt="Pokemon">
@@ -18,11 +27,11 @@
                     <img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/persian.png" alt="Pokemon">
                 </div>
             </div>
-            <div class="mega">
+            <div class="div-mega">
                 <p>Mega</p>
                 <div></div>
             </div>
-            <div class="alola">
+            <div class="div-alola">
                 <p>Alola</p>
                 <div class="div-img dark">
                     <img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/meowth-alola.png" alt="Pokemon">
@@ -31,14 +40,14 @@
                     <img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/persian-alola.png" alt="Pokemon">
                 </div>
             </div>
-            <div class="galar">
+            <div class="div-galar">
                 <p>Galar</p>
                 <div class="div-img steel">
                     <img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/meowth-galar.png" alt="Pokemon">
                 </div>
             </div>
-            <div class="gigamax">
-                <p>Gigamax</p>
+            <div class="div-gmax">
+                <p>Gigantamax</p>
                 <div class="div-img normal">
                     <img src="https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/meowth-gmax.png" alt="Pokemon">
                 </div>
